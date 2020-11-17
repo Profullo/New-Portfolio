@@ -1,0 +1,27 @@
+body{
+    background-color: white;
+}
+
+.Contact{
+    padding: 3px;
+    left: 0;
+    bottom: 0;
+    width: auto;
+    position: bottom;
+
+
+}
+
+
+.footer{
+
+    position: bottom;
+    padding: 3px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #006747;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+}
