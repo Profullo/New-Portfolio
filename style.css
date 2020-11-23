@@ -1,18 +1,17 @@
-html{
+html
+{
     scroll-behavior: smooth;
 }
-body{
+body
+{
     background-color: white;
 }
 
-.Contact{
-    text-align: center;
-    font-size: 150%;
-}
 
-.AboutUs
+div.AboutUs
 {
     font-style: Arial;
+    text-align: justify;
     margin-left: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -20,49 +19,47 @@ body{
 }
 
 
-.footer{
-
+div.footer
+{
     position: bottom;
-    padding: 2px;
+    padding: 20px;
     width: 100%;
     background-color: #006747;
     color: #ffffff;
     text-align: center;
 }
 
-div.header
-{
-	font-family: ARIAL;
-	text-align: center; 
-	background-color: #006a4e;
-	color: White;
-	font-size: 200%;
-	margin:0;
-    padding: 20px 10px;
-}
 
 
 img
 {
-	width: 100%;
-	border: 3px solid green;	
+	width: 100%;	
 }
 
 
 div.contact
 {
 	text-align: center;
-	border: 3px solid green;
 	font-size: 150%;
 }
 
-.contact-area{
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-    height: 700px;
+
+.nav.navbar-nav li a {
+    color: #ffffff;
+    text-align: center;
+}
+
+.nav.navbar-nav li a:hover {
+
+    background-color: #f42a41;
+}
+
+.nav.navbar-nav li a:visited {
+
+    background-color: #f42a41;
+}
+
+.nav.navbar-nav li a:active {
+
+    background-color: #f42a41;
 }
